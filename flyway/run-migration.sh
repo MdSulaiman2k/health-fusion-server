@@ -1,0 +1,5 @@
+(cd flyway; flyway -configFiles=flyway.conf info)
+(cd flyway; flyway -configFiles=flyway.conf repair)
+(cd flyway; flyway -configFiles=flyway.conf info)
+(cd flyway; flyway -configFiles=flyway.conf migrate)
+(cd flyway; flyway -configFiles=flyway.conf info)
